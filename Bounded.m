@@ -1,0 +1,10 @@
+n=-20:20;
+A=10;
+a=3;
+x=A*(a.^n);
+b=0.2;
+y=A*(b.^n);
+subplot(2,1,1);
+stem(n,x);
+subplot(2,1,2);
+stem(n,y);
